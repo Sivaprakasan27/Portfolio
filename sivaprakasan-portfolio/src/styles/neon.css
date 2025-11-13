@@ -1,0 +1,10 @@
+.gradient-move {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 240, 0.12),
+    rgba(199, 125, 255, 0.10),
+    rgba(255, 0, 200, 0.08)
+  );
+  filter: blur(60px);
+  animation: drift 12s linear infinite;
+}
